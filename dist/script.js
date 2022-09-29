@@ -1,0 +1,21 @@
+const cactiLeafs = {
+  bottom: document.getElementById("bottom"),
+  midLeft: document.getElementById("mid-left"),
+  midRight: document.getElementById("mid-right"),
+  topBack: document.getElementById("top-back"),
+  topFront: document.getElementById("top-front") };
+
+
+const timeline = new TimelineMax({ repeat: -1, yoyo: true });
+
+timeline.staggerFromTo(
+Object.values(cactiLeafs),
+1,
+{
+  rotation: 1.5 },
+
+{
+  rotation: -1.5,
+  transformOrigin: 'bottom' },
+
+0.1);

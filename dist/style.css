@@ -1,0 +1,38 @@
+body {
+  background: #ffe8b7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+svg {
+  height: 100vh;
+}
+
+.st0 {
+  fill: #ffe8b7;
+}
+
+.st1 {
+  fill: url(#back-of-pot_1_);
+}
+
+.st2 {
+  fill: #333;
+}
+
+.st3 {
+  fill: #6db267;
+}
+
+.st4 {
+  fill: #4c7a47;
+}
+
+.st5 {
+  fill: #1300af;
+}
+
+.st6 {
+  fill: url(#front-of-pot_1_);
+}
